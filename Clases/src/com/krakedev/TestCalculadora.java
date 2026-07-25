@@ -22,6 +22,10 @@ public class TestCalculadora {
 			
 			System.out.println("Resultado de la división: " + d1);
 			
+			double p1 = c1.promediar(10, 8, 9);
+			
+			System.out.println("Resultado del promedio: " + p1);
+			
 	}
 
 }
