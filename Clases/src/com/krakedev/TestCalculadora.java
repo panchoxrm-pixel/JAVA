@@ -18,6 +18,10 @@ public class TestCalculadora {
 			
 			System.out.println("Resultado de la multiplicación: " + m1);
 			
+			double d1 = c1.dividir(10, 2);
+			
+			System.out.println("Resultado de la división: " + d1);
+			
 	}
 
 }
