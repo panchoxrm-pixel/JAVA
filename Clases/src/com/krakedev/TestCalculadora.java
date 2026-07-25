@@ -8,7 +8,11 @@ public class TestCalculadora {
 		
 			double s1 = c1.sumar(4, 2);
 			
-			System.out.println("Resultado de la suma: " + s1);			
+			System.out.println("Resultado de la suma: " + s1);
+			
+			int r1 = c1.restar(8, 6);
+			
+			System.out.println("Resultado de la resta: " + r1);
 			
 	}
 
