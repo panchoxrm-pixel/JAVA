@@ -8,8 +8,8 @@ public class TestRectangulo {
 		
 		Rectangulo r1 = new Rectangulo();
 		
-		r1.base = 7;
-		r1.altura = 11;
+		r1.setBase(7);
+		r1.setAltura(11);
 		
 		int resultadoArea = r1.calcularArea();
 		
@@ -23,8 +23,8 @@ public class TestRectangulo {
 		
 		Rectangulo r2 = new Rectangulo();
 		
-		r2.base = 12;
-		r2.altura = 4;
+		r2.setBase(12);
+		r2.setAltura(4);
 		
 		int resultadoArea2 = r2.calcularArea();
 		

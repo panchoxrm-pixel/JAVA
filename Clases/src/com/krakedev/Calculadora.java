@@ -30,5 +30,15 @@ public class Calculadora {
 	public void mostrarResultado() {
 		System.out.println("Ahorita no, joven, salí al almuerzo. Regreso en 15 minutos");
 	}
+	
+	public double restarConDecimales(double a, double b) {
+		double resultado = a - b;
+		return resultado;
+	}
+	
+	public double calcularDescuento(double precio, double porcentaje ) {
+		double precioAPagar = precio-(precio*porcentaje/100);
+		return precioAPagar;
+	}
 		
 }

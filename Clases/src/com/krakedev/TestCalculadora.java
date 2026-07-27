@@ -27,6 +27,16 @@ public class TestCalculadora {
 			System.out.println("Resultado del promedio: " + p1);
 			
 			c1.mostrarResultado();
+		
+			Calculadora c2 = new Calculadora();
+			
+			double r2 = c2.restarConDecimales(100.5, 40.5);
+			
+			System.out.println("Resultado de la resta: " + r2);
+			
+			double precioAPagar = c2.calcularDescuento(200.0, 15.0);
+			
+			System.out.println("Precio a pagar: " + precioAPagar);
 			
 	}
 

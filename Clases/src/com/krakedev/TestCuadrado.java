@@ -6,7 +6,8 @@ public class TestCuadrado {
 		
 		System.out.println("==============Cuadrado 1==============");		
 		Cuadrado c1 = new Cuadrado();		
-		c1.lado = 5;		
+//		c1.lado = 5; Usado cuando el atributo era público
+		c1.setLado(5);
 		double resultadoArea1 = c1.calcularArea();		
 		double resultadoPerimetro1 = c1.calcularPerimetro();
 		System.out.println("Área: " + resultadoArea1);
@@ -14,7 +15,8 @@ public class TestCuadrado {
 		
 		System.out.println("==============Cuadrado 2==============");
 		Cuadrado c2 = new Cuadrado();		
-		c2.lado = 7;		
+//		c2.lado = 7;
+		c2.setLado(7);
 		double resultadoArea2 = c2.calcularArea();		
 		double resultadoPerimetro2 = c2.calcularPerimetro();
 		System.out.println("Área: " + resultadoArea2);
@@ -22,7 +24,8 @@ public class TestCuadrado {
 		
 		System.out.println("==============Cuadrado 3==============");
 		Cuadrado c3 = new Cuadrado();		
-		c3.lado = 18;		
+//		c3.lado = 18;
+		c3.setLado(18);
 		double resultadoArea3 = c3.calcularArea();		
 		double resultadoPerimetro3 = c3.calcularPerimetro();
 		System.out.println("Área: " + resultadoArea3);
