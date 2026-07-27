@@ -8,28 +8,28 @@ public class TestVehiculo {
 		
 		v = new Vehiculo();		
 		
-		v.anio = "2021";
-		v.marca = "Chevrolet";
-		v.modelo = "Captiva";
+		v.setAnio("2021");
+		v.setMarca("Chevrolet");
+		v.setModelo("Captiva");
 		
 		System.out.println("=========Vehículo 1=========");
 		
-		System.out.println("Año: " + v.anio);
-		System.out.println("Marca: " + v.marca);
-		System.out.println("Modelo: " + v.modelo);
+		System.out.println("Año: " + v.getAnio());
+		System.out.println("Marca: " + v.getMarca());
+		System.out.println("Modelo: " + v.getModelo());
 		
 
 		Vehiculo v2 = new Vehiculo();
 		
-		v2.anio = "2018";
-		v2.marca = "Kía";
-		v2.modelo = "Sonet";
+		v2.setAnio("2018");
+		v2.setMarca("Kía");
+		v2.setModelo("Sonet");
 		
 		System.out.println("=========Vehículo 2=========");
 		
-		System.out.println("Año: " + v2.anio);
-		System.out.println("Marca: " + v2.marca);
-		System.out.println("Modelo: " + v2.modelo);
+		System.out.println("Año: " + v2.getAnio());
+		System.out.println("Marca: " + v2.getMarca());
+		System.out.println("Modelo: " + v2.getModelo());
 
 	}
 
