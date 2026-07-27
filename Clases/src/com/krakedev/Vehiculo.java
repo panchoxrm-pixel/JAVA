@@ -23,7 +23,19 @@ public class Vehiculo {
 	}
 	public void setAnio(String anio) {
 		this.anio = anio;
-	}	
+	}
 	
+
+//	Metodo constructor con un parametro y cuerpo
+	public Vehiculo(String marca) {
+		this.marca = marca;		
+	}
+	
+//	Metodo constructor con 3 parametros y cuerpo
+	public Vehiculo(String marca, String modelo, String anio) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.anio = anio;		
+	}
 	
 }

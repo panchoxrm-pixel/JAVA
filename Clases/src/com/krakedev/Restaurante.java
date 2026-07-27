@@ -25,6 +25,9 @@ public class Restaurante {
 		this.calificacion = calificacion;
 	}
 	
-	
-	
+	public Restaurante(String nombre, String direccion, double calificacion) {
+		this.nombre = nombre;
+		this.direccion = direccion;
+		this.calificacion = calificacion;
+	}
 }

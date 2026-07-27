@@ -6,11 +6,7 @@ public class TestVehiculo {
 		
 		Vehiculo v;
 		
-		v = new Vehiculo();		
-		
-		v.setAnio("2021");
-		v.setMarca("Chevrolet");
-		v.setModelo("Captiva");
+		v = new Vehiculo("2021", "Chevrolet", "Captiva");				
 		
 		System.out.println("=========Vehículo 1=========");
 		
@@ -19,11 +15,7 @@ public class TestVehiculo {
 		System.out.println("Modelo: " + v.getModelo());
 		
 
-		Vehiculo v2 = new Vehiculo();
-		
-		v2.setAnio("2018");
-		v2.setMarca("Kía");
-		v2.setModelo("Sonet");
+		Vehiculo v2 = new Vehiculo("2018", "Kía", "Sonet");
 		
 		System.out.println("=========Vehículo 2=========");
 		
